@@ -105,3 +105,4 @@ Fact table → contains Foreign Keys
 Dimension tables → contain Primary Keys
 
 ------------------------------------------------------------------------------------
+keys.sql
