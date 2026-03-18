@@ -59,3 +59,50 @@ email
 
 👉 Both can uniquely identify → both are candidate keys
 👉 One becomes Primary Key
+
+-------------------------------------------------------------------------------
+🔑 5. Alternate Key
+📌 Definition:
+
+Candidate keys that are not selected as primary key
+
+🏭 Example:
+customer_id (PK)
+email (Alternate Key)
+
+--------------------------------------------------------------------------------
+
+🔑 6. Surrogate Key ⭐ (VERY IMPORTANT FOR INTERVIEWS)
+📌 Definition:
+
+A system-generated key (no business meaning)
+
+🧠 Why we use:
+Better performance
+Handles history (SCD)
+Avoids dependency on source system
+
+----------------------------------------------------------------------------------
+
+🔑 7. Natural Key
+📌 Definition:
+
+A real-world business identifier
+
+🏭 Example:
+customer_id
+product_code
+order_number
+
+👉 Comes from source system
+
+----------------------------------------------------------------------------------
+
+🔑 8. Foreign Key in Fact Table (Important Concept)
+
+In Star Schema:
+Fact table → contains Foreign Keys
+Dimension tables → contain Primary Keys
+
+------------------------------------------------------------------------------------
+keys.sql
